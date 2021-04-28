@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Explore from '../components/Explore'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
 
@@ -14,7 +15,8 @@ export default function Home() {
       {/* Hero section of the website*/}
       <Hero />
       {/* Explore section page*/}
-      <h1 style={{ color: 'red' }}>Background image with 3 photos inside.</h1>
+      <Explore />
+      {/* More info about the page */}
     </div>
   )
 }

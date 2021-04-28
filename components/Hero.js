@@ -4,7 +4,7 @@ import { LibraryIcon } from '@heroicons/react/outline'
 function Hero() {
   return (
     <FadeIn
-      className="flex flex-col items-center py-8 shadow-lg"
+      className="flex flex-col items-center py-8 shadow sm:my-14"
       delay="100"
       transitionDuration="1200"
     >
