@@ -1,5 +1,6 @@
 import FadeIn from 'react-fade-in'
-import { LibraryIcon } from '@heroicons/react/outline'
+import { LibraryIcon, GlobeIcon } from '@heroicons/react/outline'
+import Link from 'next/Link'
 
 function Hero() {
   return (
@@ -17,6 +18,13 @@ function Hero() {
         {' '}
         You are in the right place our collection.
       </p>
+
+      <Link href="Exhibitions">
+        <button class="w-full h-16 px-10 my-8 text-indigo-100 transition-colors duration-150 bg-gray-900 rounded-lg focus:shadow-outline hover:bg-gray-700 sm:w-64 md:w-96 text-1xl md:text-2xl flex items-center">
+          <GlobeIcon className="h-5 px-3" />
+          Explore and discover
+        </button>
+      </Link>
     </FadeIn>
   )
 }
