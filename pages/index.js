@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import AboutUs from '../components/AboutUs'
 import Explore from '../components/Explore'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
@@ -17,6 +18,8 @@ export default function Home() {
       {/* Explore section page*/}
       <Explore />
       {/* More info about the page */}
+      <AboutUs />
+      {/* Exhibitions available */}
     </div>
   )
 }
