@@ -20,7 +20,10 @@ function Hero() {
       </p>
 
       <Link href="Exhibitions">
-        <button class="w-full h-16 px-10 my-8 text-indigo-100 transition-colors duration-150 bg-gray-900 rounded-lg focus:shadow-outline hover:bg-gray-700 sm:w-64 md:w-96 text-1xl md:text-2xl flex items-center">
+        <button
+          className="w-full h-16 px-10 my-8 text-indigo-100 transition-colors duration-150 bg-gray-900 rounded-lg focus:shadow-outline hover:bg-gray-700 sm:w-64 md:w-96 text-1xl md:text-2xl flex items-center
+        "
+        >
           <GlobeIcon className="h-5 px-3" />
           Explore and discover
         </button>
